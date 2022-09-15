@@ -1,0 +1,22 @@
+artifact_path: keras-ann-model
+flavors:
+  keras:
+    code: null
+    data: data
+    keras_module: tensorflow.keras
+    keras_version: 2.10.0
+    save_format: tf
+  python_function:
+    data: data
+    env: conda.yaml
+    loader_module: mlflow.keras
+    python_version: 3.8.5
+mlflow_version: 1.28.0
+model_uuid: 931511fd184e4b118253dc7e1e4d001a
+run_id: f171f6d241094dd38db3d9545dfd3bd6
+signature:
+  inputs: '[{"name": "sepal_length", "type": "double"}, {"name": "sepal_width", "type":
+    "double"}, {"name": "petal_length", "type": "double"}, {"name": "petal_width",
+    "type": "double"}]'
+  outputs: '[{"name": "species", "type": "integer"}]'
+utc_time_created: '2022-09-15 03:06:12.701031'
